@@ -10,6 +10,7 @@ A simple Windows batch script that automatically renames files in-place: replace
 - **Removes all other special characters** (keeps letters, numbers, hyphens, and dots)  
 - Preserves **file extensions**  
 - Skips the batch script itself to avoid renaming itself  
+- **Not recursive - only renames files in the current folder (subfolders are ignored)** 
 
 ---
 
@@ -19,6 +20,7 @@ A simple Windows batch script that automatically renames files in-place: replace
 2. Place `rename_files.bat` in the folder containing the files you want to rename.  
 3. Double-click the `.bat` file to run it.  
 4. All files in the folder will be renamed automatically.
+5. The script will rename **only the files in that folder** (subfolders remain untouched).
 
 ---
 
@@ -26,12 +28,10 @@ A simple Windows batch script that automatically renames files in-place: replace
 
 **Before running the script:**
 
-Świąteczny plik 2025!.txt
-
+Świąteczny plik 2025!.txt  
 Mój (dokument).pdf
 
 **After running the script:**
 
-swiateczny-plik-2025.txt
-
+swiateczny-plik-2025.txt  
 moj-dokument.pdf
