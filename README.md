@@ -27,9 +27,11 @@ A simple Windows batch script that automatically renames files in-place: replace
 **Before running the script:**
 
 Świąteczny plik 2025!.txt
+
 Mój (dokument).pdf
 
 **After running the script:**
 
 swiateczny-plik-2025.txt
+
 moj-dokument.pdf
